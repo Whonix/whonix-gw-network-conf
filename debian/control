@@ -1,0 +1,20 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: whonix-gw-network-conf
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, config-package-dev (>= 5.1)
+Homepage: https://github.com/Whonix/whonix-gw-network-conf
+Vcs-Browser: https://github.com/Whonix/whonix-gw-network-conf
+Vcs-Git: https://github.com/Whonix/whonix-gw-network-conf.git
+Standards-Version: 3.9.4
+
+Package: whonix-gw-network-conf
+Architecture: all
+Depends: whonix-gw-firewall, ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: /etc/network/interfaces for Whonix-Gateway
