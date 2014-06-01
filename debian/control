@@ -14,7 +14,7 @@ Standards-Version: 3.9.4
 
 Package: whonix-gw-network-conf
 Architecture: all
-Depends: whonix-gw-firewall, ${misc:Depends}
+Depends: ifupdown, netbase, ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: /etc/network/interfaces for Whonix-Gateway
