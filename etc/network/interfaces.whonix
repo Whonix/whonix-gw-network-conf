@@ -54,8 +54,8 @@ iface eth0 inet dhcp
 auto eth1
 iface eth1 inet static
        ## INT_IP and INT_IF
-       address 192.168.0.10
-       netmask 255.255.255.0
+       address 11.150.150.150
+       netmask 255.255.192.0
        ## Out commented.
        ## For what do we need network and broadcast anyway?
        #network 192.168.0.0
