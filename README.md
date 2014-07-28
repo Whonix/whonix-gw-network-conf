@@ -1,5 +1,10 @@
-# /etc/network/interfaces for Whonix-Gateway #
+# Network Configuration for Whonix-Gateway #
 
+Includes /etc/network/interfaces for Whonix-Gateway.
+
+Sets up two network interfaces, an external one eth0 and an internal one eth1.
+
+Loads Whonix's firewall using pre-up hook. Fails closed.
 
 (This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
 
