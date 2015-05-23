@@ -1,3 +1,15 @@
+commit 4136361ac308e8664a61eaf9c2da2fbba9c2e74b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 23 13:41:24 2015 +0000
+
+    Removed 'pre-up /usr/bin/whonix_firewall', because /etc/network/if-pre-up.d to load the firewall, because of a Debian upstream bug interface comes up even if a script in /etc/network/if-pre-up.d/ fails http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=700811 was fixed. - https://phabricator.whonix.org/T68
+
+commit c7c1e2b6056a7828aa9aac1ad828f77ffa787404
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 30 17:57:09 2015 +0000
+
+    bumped changelog version
+
 commit 6f7d68fe98c783b86151d9252fe247ab92dcc586
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Apr 28 13:43:30 2015 +0000
