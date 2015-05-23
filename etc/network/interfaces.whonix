@@ -4,11 +4,6 @@
 
 ## for more information see interfaces(5)
 
-## Unfortunately, we can not use /etc/network/if-pre-up.d
-## to load the firewall, because of a Debian upstream bug.
-## - interface comes up even if a script in /etc/network/if-pre-up.d/ fails:
-##   http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=700811
-
 ## Loopback interface.
 auto lo
 iface lo inet loopback
@@ -21,7 +16,6 @@ iface lo inet loopback
 ##   with your LAN network or router.
 auto eth0
 iface eth0 inet dhcp
-       pre-up /usr/bin/whonix_firewall
 
 ## Or alternatively we could use...
 ## (Out commented by default.)
@@ -42,7 +36,6 @@ iface eth0 inet dhcp
         #gateway 10.0.2.2
         ## broadcast required?
         #broadcast 10.0.2.255
-        #pre-up /usr/bin/whonix_firewall
 
 ## When using Virtual Machines (not Physical Isolation),
 ## - eth1 is an internal, isolated, virtual network,
