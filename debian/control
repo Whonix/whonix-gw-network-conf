@@ -21,3 +21,5 @@ Description: Network Configuration for Whonix-Gateway
  Includes /etc/network/interfaces for Whonix-Gateway.
  .
  Sets up two network interfaces, an external one eth0 and an internal one eth1.
+ .
+ Currently relevant for Non-Qubes-Whonix only.
