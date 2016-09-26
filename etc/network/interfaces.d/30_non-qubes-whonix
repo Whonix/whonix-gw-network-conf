@@ -14,26 +14,19 @@ iface lo inet loopback
 ## - it will get an IP address such as 10.0.2.15
 ## - Thus, the this IP address can NOT cause conflicts
 ##   with your LAN network or router.
-auto eth0
-iface eth0 inet dhcp
+## We no longer use DHCP.
+## https://phabricator.whonix.org/T559
+#auto eth0
+#iface eth0 inet dhcp
 
 ## Or alternatively we could use...
 ## (Out commented by default.)
-## NAT interface to communicate with VirtualBox. STATIC
-##
-## Not sure if we should use static network for the NAT
-## adapter.
-## https://forums.virtualbox.org/viewtopic.php?f=1&t=49066
-## Might conflict with other virtual machines.
-## Open for input.
-##
-## apt-get --yes remove --purge dhcp*
-##
-#auto eth0
-#iface eth0 inet static
-        #address 10.0.2.15
-        #netmask 255.255.255.0
-        #gateway 10.0.2.2
+## NAT interface to communicate with VirtualBox.
+auto eth0
+iface eth0 inet static
+        address 10.0.2.15
+        netmask 255.255.255.0
+        gateway 10.0.2.2
         ## broadcast required?
         #broadcast 10.0.2.255
 
