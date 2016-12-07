@@ -18,7 +18,8 @@ Depends: ifupdown, netbase, ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Network Configuration for Whonix-Gateway
- Includes /etc/network/interfaces for Whonix-Gateway.
+ Includes etc/network/interfaces.d/30_non-qubes-whonix for
+ Non-Qubes-Whonix-Gateway.
  .
  Sets up two network interfaces, an external one eth0 and an internal one eth1.
  .
