@@ -22,4 +22,4 @@ Description: Network Configuration for Whonix-Gateway
  .
  Sets up two network interfaces, an external one eth0 and an internal one eth1.
  .
- Currently relevant for Non-Qubes-Whonix only.
+ Provides /usr/share/whonix-gw-network-conf/network_internal_ip.txt.
