@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9), faketime, genmkfile, config-package-dev (>= 5.1
 Homepage: https://github.com/Whonix/whonix-gw-network-conf
 Vcs-Browser: https://github.com/Whonix/whonix-gw-network-conf
 Vcs-Git: https://github.com/Whonix/whonix-gw-network-conf.git
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 
 Package: whonix-gw-network-conf
 Architecture: all
