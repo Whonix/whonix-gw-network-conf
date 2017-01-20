@@ -1,0 +1,9 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+## Disable Predictable Network Interface Names as these are problematic.
+## https://forums.whonix.org/t/whonix-14-0-0-0-7-developers-only/3449/4
+## Disabling them as per
+## 'zless /usr/share/doc/udev/README.Debian.gz'.
+/dev/null /etc/systemd/network/99-default.link
