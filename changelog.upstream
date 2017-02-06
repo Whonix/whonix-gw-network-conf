@@ -1,3 +1,17 @@
+commit ac459469b609262fa75df23a0aec85efb8649295
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 2 18:54:15 2017 +0100
+
+    ExecStartPre=/usr/lib/tor-controlport-filter-merger
+    
+    https://phabricator.whonix.org/T617
+
+commit 22abb6c62173c5bc8f93a4d07d0a9fc1b3a809de
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 20 17:44:59 2017 +0100
+
+    bumped changelog version
+
 commit 0372c65612c413e43cb2cb2136222183524b540f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Jan 20 17:42:38 2017 +0100
