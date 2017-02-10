@@ -6,7 +6,7 @@ Source: whonix-gw-network-conf
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 9), faketime, genmkfile, config-package-dev (>= 5.1)
+Build-Depends: debhelper (>= 9), faketime, genmkfile, config-package-dev
 Homepage: https://github.com/Whonix/whonix-gw-network-conf
 Vcs-Browser: https://github.com/Whonix/whonix-gw-network-conf
 Vcs-Git: https://github.com/Whonix/whonix-gw-network-conf.git
