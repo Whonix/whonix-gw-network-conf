@@ -1,10 +1,11 @@
 # Network Configuration for Whonix-Gateway #
 
-Includes /etc/network/interfaces for Whonix-Gateway.
+Includes etc/network/interfaces.d/30_non-qubes-whonix for
+Non-Qubes-Whonix-Gateway.
 
 Sets up two network interfaces, an external one eth0 and an internal one eth1.
 
-Currently relevant for Non-Qubes-Whonix only.
+Provides /usr/share/whonix-gw-network-conf/network_internal_ip.txt.
 
 (This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
 
