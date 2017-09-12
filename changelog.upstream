@@ -1,3 +1,15 @@
+commit 9dc2cd2309667b2c8362c44de9bac25f70ef9d83
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Sep 3 12:44:57 2017 +0000
+
+    onion-grater systemd drop-in path fix
+
+commit 10ecf0c546ade8370bd9a738ecdea7f3d0260ba7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 26 14:43:09 2017 +0000
+
+    bumped changelog version
+
 commit ea748c13984e3426038e6f054cfec4733ac23813
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Mar 30 03:19:58 2017 +0200
