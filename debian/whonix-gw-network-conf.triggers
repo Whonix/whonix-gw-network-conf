@@ -3,4 +3,4 @@
 
 ## Required for /etc/systemd/network/99-default.link to take effect as per
 ## 'zless /usr/share/doc/udev/README.Debian.gz'.
-activate update-initramfs
+activate-noawait update-initramfs
