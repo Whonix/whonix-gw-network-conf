@@ -1,3 +1,29 @@
+commit a0af5f69a36c3b85e77a8498b5f6c07730e8f38a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Apr 5 10:24:45 2019 -0400
+
+    fix lintian warning
+    
+    W: whonix-gw-network-conf: uses-implicit-await-trigger activate update-initramfs (line 6)
+
+commit c984e701579419cbd8f80b4ba0e03774ccbdc40c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 4 05:51:10 2019 -0400
+
+    port to debian buster
+
+commit f06bc8871cd1247ef0dfe3b5f54cce36244b49db
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 3 18:06:14 2019 -0400
+
+    readme
+
+commit 736958fef795d38a270f5df347494f9d3c5e8181
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 29 10:13:17 2019 +0000
+
+    bumped changelog version
+
 commit 3d119713df949d3ec8267cbd43ef35b808614865
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Mar 29 09:03:21 2019 +0000
