@@ -14,6 +14,7 @@ Standards-Version: 4.3.0
 Package: whonix-gw-network-conf
 Architecture: all
 Depends: ifupdown, netbase, ${misc:Depends}
+Replaces: kicksecure-network-conf
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Network Configuration for Whonix-Gateway
