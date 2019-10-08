@@ -6,7 +6,8 @@
 #### category networking
 #### non_qubes_whonix_only yes
 #### gateway_only yes
-#### description network interfaces configuration eth0 (external network interface) and eth1 (internal network interface)
+#### description
+## network interfaces configuration eth0 (external network interface) and eth1 (internal network interface)
 #### meta end
 
 ## for more information see interfaces(5)
