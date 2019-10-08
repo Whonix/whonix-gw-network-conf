@@ -8,6 +8,17 @@
 #### gateway_only yes
 #### description
 ## network interfaces configuration eth0 (external network interface) and eth1 (internal network interface)
+##
+## static network configuration
+##
+## eth0
+#address 10.0.2.15
+#netmask 255.255.255.0
+#gateway 10.0.2.2
+##
+## eth1
+#address 10.152.152.10
+#netmask 255.255.192.0
 #### meta end
 
 ## for more information see interfaces(5)

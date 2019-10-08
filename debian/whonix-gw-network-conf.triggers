@@ -1,6 +1,15 @@
 ## Copyright (C) 2012 - 2018 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
+#### meta start
+#### project Whonix
+#### category networking
+#### non_qubes_whonix_only yes
+#### gateway_only yes
+#### description
+
 ## Required for /etc/systemd/network/99-default.link to take effect as per
 ## 'zless /usr/share/doc/udev/README.Debian.gz'.
 activate-noawait update-initramfs
+
+#### meta end
