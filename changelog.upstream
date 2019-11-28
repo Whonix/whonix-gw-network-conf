@@ -1,3 +1,15 @@
+commit 94bf0c2df4adecf88a984d2eeff0c5362f80d8bb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Nov 25 14:23:18 2019 +0000
+
+    disable onion-grater debugging
+
+commit 21b680b63a906e319cfae02bd24d04c8eecf6b0a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 14 10:26:27 2019 +0000
+
+    bumped changelog version
+
 commit 750b1101f89b57f1ac9c0f12012c07ed1f0ede4e
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Oct 8 12:53:36 2019 +0000
