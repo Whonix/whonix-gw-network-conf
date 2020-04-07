@@ -5,7 +5,7 @@
 #### project Whonix
 #### category networking
 #### gateway_only yes
-#### installed_by_default no
+#### installed_by_default yes
 #### description
 ## Configure to use torified DNS server for traffic originating from
 ## Whonix-Gateway.
