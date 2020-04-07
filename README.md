@@ -6,6 +6,15 @@ Non-Qubes-Whonix-Gateway.
 Sets up two network interfaces, an external one eth0 and an internal one eth1.
 
 Provides /usr/share/whonix-gw-network-conf/network_internal_ip.txt.
+
+DNS configuration Anonymity Linux Distribution Gateways
+
+* Pointing /etc/resolv.conf to 127.0.0.1.
+* Whether a Anonymity Linux Distribution Gateway supports system DNS for its
+own traffic in the clear or anonymized mainly depends on the Gateway's
+firewall.
+* Routing the workstation's system DNS through the anonymizer (also known as
+Transparent DNS Proxy) or not is up to the Gateway's firewall as well.
 ## How to install `whonix-gw-network-conf` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
