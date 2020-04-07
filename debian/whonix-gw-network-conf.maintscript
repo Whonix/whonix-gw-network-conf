@@ -3,3 +3,6 @@
 
 ## backwards compatibility fix with Whonix <= 11.x
 rm_conffile /etc/network/interfaces.whonix
+
+## anon-gw-dns-conf -> whonix-gw-network-conf
+rm_conffile /etc/resolv.conf.anondist
