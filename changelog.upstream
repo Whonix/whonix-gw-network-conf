@@ -1,3 +1,33 @@
+commit 0fea83c6b34be8113a0fb237eda78edb64b667df
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 20:36:41 2020 +0000
+
+    readme
+
+commit db79b66b5fb35d7891223fca7de97256b7107617
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 16:39:51 2020 +0000
+
+    comments
+
+commit b54d30802960b75830977e855fc0d8a1ff9417a2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 16:37:18 2020 +0000
+
+    no system default DNS for Whonix-Gateway's own traffic by default
+
+commit ecd7cffe6f72fbd6a07c918ba7c119febb7f38de
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 16:35:13 2020 +0000
+
+    import from anon-gw-dns-conf
+
+commit 7c1dbe0e76ddb8319a1cb70d8836a1509b90cfbc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 08:09:51 2020 -0400
+
+    bumped changelog version
+
 commit 07ea3d7cddd0ff9050addaf2548beb983563601c
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 2 07:23:04 2020 -0400
