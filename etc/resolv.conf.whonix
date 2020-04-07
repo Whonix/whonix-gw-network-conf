@@ -7,16 +7,16 @@
 #### gateway_only yes
 #### installed_by_default yes
 #### description
-## Configure to use torified DNS server for traffic originating from
-## Whonix-Gateway.
-##
-## Set <code>/etc/resolv.conf</code> to <code>nameserver 127.0.0.1</code>
-## and comments.
+## No DNS configuration.
+## Only comments.
+## Whonix-Gateway by default does not have system default DNS.
+## See https://www.whonix.org/wiki/Whonix-Gateway_Own_Traffic_Transparent_Proxy
+## and footnotes.
 #### meta end
 
 ## Gateway own DNS torified setting.
 ## Torified DNS server for Gateway's own traffic.
-nameserver 127.0.0.1
+#nameserver 127.0.0.1
 
 ## Gateway own DNS Clearnet Setting.
 ## Advanced users only!
