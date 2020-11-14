@@ -17,7 +17,7 @@ firewall.
 Transparent DNS Proxy) or not is up to the Gateway's firewall as well.
 ## How to install `whonix-gw-network-conf` using apt-get ##
 
-1\. Download [Whonix's Signing Key]().
+1\. Download Whonix's Signing Key.
 
 ```
 wget https://www.whonix.org/patrick.asc
