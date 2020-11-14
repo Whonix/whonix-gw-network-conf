@@ -11,6 +11,7 @@
 ##
 ## static network configuration
 ##
+## IP HARDCODED below but comment only. No need to change.
 ## eth0
 #address 10.0.2.15
 #netmask 255.255.255.0
@@ -39,6 +40,7 @@ iface lo inet loopback
 #iface eth0 inet dhcp
 
 ## NAT interface to communicate with VirtualBox.
+## IP HARDCODED
 auto eth0
 iface eth0 inet static
         address 10.0.2.15
@@ -54,6 +56,7 @@ iface eth0 inet static
 ## - it has has no access to the host
 ## - Thus, the following IP address can NOT cause conflicts
 ##   with your LAN network or router.
+## IP HARDCODED
 auto eth1
 iface eth1 inet static
        ## INT_IP and INT_IF

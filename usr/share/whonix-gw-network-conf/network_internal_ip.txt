@@ -1,1 +1,2 @@
+## IP HARDCODED but currently only used by Qubes-Whonix. Not used by Non-Qubes-Whonix.
 network_internal_ip=10.152.152.10
