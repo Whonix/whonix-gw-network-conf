@@ -18,12 +18,18 @@
 ## Torified DNS server for Gateway's own traffic.
 #nameserver 127.0.0.1
 
-## Gateway own DNS Clearnet Setting.
-## Advanced users only!
-## Only if you know what you are doing!
-## If want Gateway's own DNS to use clearnet DNS,
-## comment out the torified DNS server above, and
+## Gateway own System DNS Clearnet Setting.
+##
+## If the user wants Gateway's own DNS to use clearnet DNS,
+## comment out the torified DNS server above (already by default), and
 ## comment in the clearnet DNS server below.
+##
 ## This has nothing to do with Workstation's DNS.
+##
+## Save to comment out. The only thing that breaks when commenting out is
+## the meek lite pluggable transport.
+##
+## https://www.whonix.org/wiki/Whonix-Gateway_System_DNS
+##
 ## VirtualBox Clearnet DNS:
 #nameserver 10.0.2.3
