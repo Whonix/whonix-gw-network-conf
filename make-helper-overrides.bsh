@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## Copyright (C) 2021 - 2021 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
+## See the file COPYING for copying conditions.
+
+## I: whonix-gw-network-conf: package-contains-documentation-outside-usr-share-doc usr/share/whonix-gw-network-conf/network_internal_ip.txt
+## Is not documentation.
+genmkfile_lintian_post_opts+=" --suppress-tags package-contains-documentation-outside-usr-share-doc"
