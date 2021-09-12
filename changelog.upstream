@@ -1,3 +1,15 @@
+commit 36bf93f32135dfb73c269ef7aa238f74a9d86853
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Sep 11 16:31:47 2021 -0400
+
+    readme
+
+commit 2abd6f099a0e116225823fc1b2f9d0aa0097f4c6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Aug 5 17:14:09 2021 -0400
+
+    bumped changelog version
+
 commit edf71668aa407c311f87e976c5c89081ccf2fde9
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Aug 4 18:56:11 2021 -0400
