@@ -15,6 +15,7 @@ own traffic in the clear or anonymized mainly depends on the Gateway's
 firewall.
 * Routing the workstation's system DNS through the anonymizer (also known as
 Transparent DNS Proxy) or not is up to the Gateway's firewall as well.
+
 ## How to install `whonix-gw-network-conf` using apt-get ##
 
 1\. Download the APT Signing Key.
@@ -23,7 +24,7 @@ Transparent DNS Proxy) or not is up to the Gateway's firewall as well.
 wget https://www.whonix.org/derivative.asc
 ```
 
-Users can [check Whonix Signing Key](https://www.whonix.org/wiki/Whonix_Signing_Key) for better security.
+Users can [check Whonix Signing Key](https://www.whonix.org/wiki/Signing_Key) for better security.
 
 2\. Add the APT Signing Key..
 
@@ -57,7 +58,9 @@ Can be build using standard Debian package build tools such as:
 dpkg-buildpackage -b
 ```
 
-See instructions. (Replace `generic-package` with the actual name of this package `whonix-gw-network-conf`.)
+See instructions.
+
+NOTE: Replace `generic-package` with the actual name of this package `whonix-gw-network-conf`.
 
 * **A)** [easy](https://www.whonix.org/wiki/Dev/Build_Documentation/generic-package/easy), _OR_
 * **B)** [including verifying software signatures](https://www.whonix.org/wiki/Dev/Build_Documentation/generic-package)
