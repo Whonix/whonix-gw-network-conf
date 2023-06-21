@@ -1,3 +1,9 @@
+whonix-gw-network-conf (3:5.0-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 21 Jun 2023 09:45:03 +0000
+
 whonix-gw-network-conf (3:4.9-1) unstable; urgency=medium
 
   * New upstream version (local package).
