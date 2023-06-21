@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 13), debhelper-compat (= 13), config-package-dev
 Homepage: https://github.com/Whonix/whonix-gw-network-conf
 Vcs-Browser: https://github.com/Whonix/whonix-gw-network-conf
 Vcs-Git: https://github.com/Whonix/whonix-gw-network-conf.git
-Standards-Version: 4.6.1.0
+Standards-Version: 4.6.2
 Rules-Requires-Root: no
 
 Package: whonix-gw-network-conf
