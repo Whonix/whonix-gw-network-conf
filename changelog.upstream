@@ -1,3 +1,15 @@
+commit 4cb09436edb7a2f6dbf3c681901047908f4a6703
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 5 08:22:58 2023 -0400
+
+    fix for newer onion-grater version
+
+commit 5db58b45ad95c2e999b9e24506dbbf56399912e3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Jul 9 06:34:01 2023 -0400
+
+    bumped changelog version
+
 commit f4f8c0369a0ef33cfca7cdde90b56ec2ef90dc15
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Jul 9 06:15:12 2023 -0400
