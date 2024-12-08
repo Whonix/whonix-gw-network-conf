@@ -38,7 +38,7 @@ iface lo inet loopback
 ## https://phabricator.whonix.org/T559
 #auto eth0
 #iface eth0 inet dhcp
-iface eth0 inet6 auto
+#iface eth0 inet6 auto
 
 ## NAT interface to communicate with VirtualBox.
 ## IP HARDCODED
