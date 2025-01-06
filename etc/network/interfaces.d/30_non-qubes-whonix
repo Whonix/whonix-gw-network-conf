@@ -38,6 +38,7 @@ iface lo inet loopback
 ## https://phabricator.whonix.org/T559
 #auto eth0
 #iface eth0 inet dhcp
+#iface eth0 inet6 auto
 
 ## NAT interface to communicate with VirtualBox.
 ## IP HARDCODED
@@ -66,3 +67,7 @@ iface eth1 inet static
        ## For what do we need network and broadcast anyway?
        #network 192.168.0.0
        #broadcast 192.168.0.255
+
+iface eth1 inet6 static
+    address fd19:c33d:88bc::10
+    netmask 96
