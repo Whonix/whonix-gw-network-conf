@@ -1,3 +1,25 @@
+commit 67b82bd4f84d57815a4be4324d2f2f4638a7a577
+Merge: 9f4f6a0 a6e5285
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Sep 13 06:45:45 2025 -0400
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit a6e5285f263bef0489bbacc4ae88fc7ba98afadf
+Merge: 9f4f6a0 0c693de
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Sep 13 04:59:57 2025 -0400
+
+    Merge pull request #1 from DanWin/ip6
+    
+    Add IPv6 address
+
+commit 9f4f6a0449767a403913bb681412b9dd892e7480
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 2 15:38:49 2025 +0000
+
+    bumped changelog version
+
 commit 8b2d641e7d2cc8dfad1e205284d9da6bf56919ad
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Aug 26 09:46:11 2025 +0000
@@ -27,6 +49,18 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Dec 31 13:26:26 2024 -0500
 
     copyright
+
+commit 0c693deb90b4edfa42638f3bacfb26a73de312c4
+Author: Daniel Winzen <daniel@danwin1210.de>
+Date:   Sun Dec 8 19:59:07 2024 +0100
+
+    Comment out inet6 auto which doesn't work in current configuration yet
+
+commit 5a16f8023d5e0d437d0fdd9f3604f3e23ae8611b
+Author: Daniel Winzen <daniel@danwin1210.de>
+Date:   Fri Oct 11 19:45:04 2024 +0200
+
+    Add IPv6 address
 
 commit 8ffd1243999ea9b069e2296c3f2e0d264657777e
 Author: Patrick Schleizer <adrelanos@whonix.org>
