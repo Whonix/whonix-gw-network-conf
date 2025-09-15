@@ -38,7 +38,6 @@ iface lo inet loopback
 ## https://phabricator.whonix.org/T559
 #auto eth0
 #iface eth0 inet dhcp
-#iface eth0 inet6 auto
 
 ## NAT interface to communicate with VirtualBox.
 ## IP HARDCODED
@@ -49,6 +48,9 @@ iface eth0 inet static
         gateway 10.0.2.2
         ## broadcast required?
         #broadcast 10.0.2.255
+
+## IPv6 autoconfiguration does not appear to require DHCP.
+iface eth0 inet6 auto
 
 ## When using Virtual Machines (not Physical Isolation),
 ## - eth1 is an internal, isolated, virtual network,
