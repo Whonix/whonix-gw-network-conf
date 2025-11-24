@@ -35,7 +35,7 @@ iface lo inet loopback
 ## - Thus, the this IP address can NOT cause conflicts
 ##   with your LAN network or router.
 ## We no longer use DHCP.
-## https://phabricator.whonix.org/T559
+## https://forums.whonix.org/t/securing-removing-dhcpclient-from-gw-was-netstat-gateway-log/18848
 #auto eth0
 #iface eth0 inet dhcp
 
