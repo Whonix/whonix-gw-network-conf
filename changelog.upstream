@@ -1,3 +1,9 @@
+commit d44169de81b4eae4ac603751722bb28e3b0b8d22
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 28 10:01:00 2026 +0000
+
+    bumped changelog version
+
 commit 9ed2363207944c896f2cce31e801ebeb33d1a98b
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Mar 28 05:31:40 2026 -0400
@@ -72,7 +78,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Sep 13 04:59:57 2025 -0400
 
     Merge pull request #1 from DanWin/ip6
-    
+
     Add IPv6 address
 
 commit 9f4f6a0449767a403913bb681412b9dd892e7480
@@ -146,7 +152,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 11 13:41:25 2023 -0500
 
     change license to AGPL-3+
-    
+
     https://forums.whonix.org/t/license-change-to-agplv3/17455
 
 commit bcfca8736c55a44302e9682ae0dcfbe85bca1207
@@ -580,7 +586,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Apr 5 10:24:45 2019 -0400
 
     fix lintian warning
-    
+
     W: whonix-gw-network-conf: uses-implicit-await-trigger activate update-initramfs (line 6)
 
 commit c984e701579419cbd8f80b4ba0e03774ccbdc40c
@@ -618,18 +624,18 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Mar 1 14:32:44 2019 +0000
 
     add improved legal protections clauses
-    
+
     The license for software created by Whonix is the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version with additional terms applicable per GNU GPL version 3 section 7.
-    
+
     The additional terms are based on the Doom 3 license which is Debian refers to as `GPL-3+-with-id-software-additional-terms`, which is Debian DFSG [1] (The Debian Free Software Guidelines) approved and which is therefore suitable for Debian `main`. Whonix made applied minimal changes to it:
-    
+
     * Rewrite `The Doom 3 BFG Edition GPL Source Code` to the more common `this program` which is used throughout the GPL.
     * Added a "trump clause" [2], in other words, any conflicts or disputes between the additional terms and the GPLv3 shall be resolved in favor of the GPLv3 by adding `Notwithstanding any other provision of this License` (as mentioned in GPL FAQ [3]) at the beginning of the additional terms.
-    
+
     [1] https://www.debian.org/social_contract#guidelines
     [2] https://www.fsf.org/news/canonical-updated-licensing-terms
     [3] https://www.gnu.org/licenses/gpl-faq.html#v3Notwithstanding
-    
+
     For more considerations, see also:
     https://www.whonix.org/wiki/Dev/Licensing
 
@@ -728,7 +734,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 10 15:47:55 2017 +0000
 
     remove faketime from Build-Depends:
-    
+
     since no longer used for reproducible builds
 
 commit 90df38ae5d11c8de80f5d4cae05962a5d194e290
@@ -754,7 +760,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Feb 2 18:54:15 2017 +0100
 
     ExecStartPre=/usr/lib/tor-controlport-filter-merger
-    
+
     https://phabricator.whonix.org/T617
 
 commit 22abb6c62173c5bc8f93a4d07d0a9fc1b3a809de
@@ -814,7 +820,7 @@ Date:   Wed Dec 7 22:36:03 2016 +0000
 
     - introduce /usr/share/whonix-gw-network-conf/network_internal_ip.txt
     - add Whonix control-port-filter-python systemd IP config override
-    
+
     https://phabricator.whonix.org/T573
 
 commit 0ee01eb67ee8a7badfbb353d6b95a5cc78405bc2
@@ -828,11 +834,11 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Sep 26 20:38:45 2016 +0200
 
     switch to static network configuration for external interface eth0
-    
+
     so we no longer have to use a DHCP client, for better security hardening
-    
+
     Thanks to @HulaHoopWhonix for suggesting this!
-    
+
     https://phabricator.whonix.org/T559
 
 commit 1de56d18132ce2713e65602443fcff29232ab89f
